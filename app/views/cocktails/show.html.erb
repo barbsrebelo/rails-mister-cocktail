@@ -1,4 +1,6 @@
-<% @cocktails.each do |cocktail| %>
-<%= @cocktails.name %>
-<%= link_to "", cocktail_path(cocktail), class: 'card-link' %>
-<%= end %>
+
+<%= @cocktail.name %>
+
+
+<%= link_to "Cocktails", cocktails_path, class: 'card-link' %>
+
